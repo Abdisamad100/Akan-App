@@ -1,0 +1,14 @@
+body{
+    font-size:20px;
+    font-family:cursive;
+    text-align:center;
+}
+.container {
+    font-size:25px;
+    text-align:center;
+}
+.p{
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+}
