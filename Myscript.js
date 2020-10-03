@@ -42,3 +42,9 @@ let month = parseInt(document.getElementById("month").value);
         alert("Please Enter you credentials");
         return false;
       }
+
+      if (month == null || month== "", day == null || day == "", year== null || year == "", name == null || name == "") {
+         alert("Please Fill All Required Field");
+         return false;
+       }
+
