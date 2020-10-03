@@ -36,4 +36,9 @@ let month = parseInt(document.getElementById("month").value);
   let output = document.getElementById("output");
   male = document.getElementById("male")
   female = document.getElementById("female")
+
+
   if (month =="" && year =="" && day =="" && name=="") {
+        alert("Please Enter you credentials");
+        return false;
+      }
