@@ -1,12 +1,29 @@
-var weekDays={
-    monday,
-    tuesday,
-    wednesday,
-    thursday,
-    friday,
-    saturday,
-    sanday,
-}
-var maleNames={
-    
+var submission = function() {
+    let daysOfTheWeek = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ];
+    let maleNames = [
+      "Kwasi",
+      "Kwadwo",
+      "Kwabena",
+      "Kwaku",
+      "Yaw",
+      "Kofi",
+      "Kwame"
+    ];
+    let femaleNames = [
+      "Akosua",
+      " Adwoa",
+     "Abenaa",
+     "Akua",
+     "Yaa",
+     "Afua",
+     "Ama"
+    ];
 }
