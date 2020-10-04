@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>Myscript.js</script>
     <title>Document</title>
 </head>
 <body>
@@ -19,7 +20,6 @@
         </div>
         
         <form>
-            <div>
                 <div>
                     <label>Enter Your first Name.</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter" required>
@@ -29,9 +29,9 @@
                     <label>Month of Birth</label>
                     <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
                         max="12">
-                    <label>Day of Birth</label>
-                    <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
-                        max="31">
+                     <label>Day of Birth</label> 
+                     <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1" 
+                      max="31"> 
                 </div>
                 <div class="gender">
                      <p id="output"></p>
@@ -39,18 +39,12 @@
                     <input type="radio" name="gender" id="male" value="male" checked> Male
                     <input type="radio" name="gender" id="female" value="female"> Female
                 </div>
-            </div>
+            
             <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
             <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
         </form>
     
-
-
-
-
-
-
-    </div>
-    <script>Myscripts.js</script>
+     </div>
+    <script src="Myscript.js"></script>
 </body>
 </html>
