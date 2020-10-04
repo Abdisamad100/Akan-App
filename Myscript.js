@@ -8,7 +8,7 @@ var submission = function() {
       "Friday",
       "Saturday"
     ];
-    var  maleNames = [
+    var maleNames = [
       "Kwasi",
       "Kwadwo",
       "Kwabena",
@@ -17,7 +17,7 @@ var submission = function() {
       "Kofi",
       "Kwame"
     ];
-    var  femaleNames = [
+    var femaleNames = [
       "Akosua",
       " Adwoa",
      "Abenaa",
@@ -39,7 +39,7 @@ var submission = function() {
 
     if (month =="" && year =="" && day =="" && name =="") {
       alert("Please Enter you credentials");
-      
+
       return false;
     }
 //    if (month == null || month== "", day == null || day == "", year== null || year == "", name == null || name == "") {
@@ -77,4 +77,4 @@ var submission = function() {
       output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
   }
 
-  };
+};
